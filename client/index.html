@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" href="assets/img/logo.png">
+	<meta charset="UTF-8">
+	<title>Citroen website</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Travel Assistant">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
+	<link rel="stylesheet" href="assets/css/reset.css"  rel="stylesheet">
+	<link href="assets/css/style.css" type="text/css"  rel="stylesheet">
+	
+	<script type="text/javascript" src="node_modules/angular/angular.js"></script>
+	<script type="text/javascript" src="node_modules/angular-route/angular-route.js"></script>
+	<script src="node_modules/jquery/dist/jquery.js"></script>
+	<script src="dist/concat.js"></script>
+</head>
+<body ng-app="citroenApp" ng-controller="PageController"  ng-cloak>
+
+	<header id="top" class="clear">
+		<div id="logo">
+          	<a ng-href="#/home"><img alt="Brand" src="assets/img/logo.png"/></a>
+       	</div>
+		<nav class="dropdown">
+         	<ul class="dropdown-content">
+              	<li ng-class="{active: activetab=='/home'}" >
+              		<a ng-href="#/home">{{carData.Navigation[0]}}</a>
+              	</li>
+              	<li ng-class="{active: activetab=='/models'}">
+              		<a ng-href="#/home}}">{{carData.Navigation[1]}}</a>
+              	</li>
+              	<li ng-class="{active: activetab=='/favorite'}">
+              		<a ng-href="#/favorite" =>{{carData.Navigation[2]}}</a>
+              	</li>
+              	<li ng-class="{active: activetab=='/populars'}">
+              		<a ng-href="#/populars">{{carData.Navigation[3]}}</a>
+              	</li>
+              	<li ng-class="{active: activetab=='/about'}">
+              		<a ng-href="#/home">{{carData.Navigation[4]}}</a>
+              	</li>
+              	<li ng-class="{active: activetab=='/contact'}">
+              		<a ng-href="#/home">{{carData.Navigation[5]}}</a>
+              	</li>
+            </ul>
+		</nav>
+	</header>
+	
+	<div id="icons">
+		<div><i class="fa fa-facebook" aria-hidden="true"></i></div>	
+		<div><i class="fa fa-google-plus" aria-hidden="true"></i></div>
+		<div><i class="fa fa-rss" aria-hidden="true"></i></div>
+		<div><i class="fa fa-linkedin" aria-hidden="true"></i></div>	
+	</div>
+	
+	<div ng-view></div>
+	
+</body>
+</html>

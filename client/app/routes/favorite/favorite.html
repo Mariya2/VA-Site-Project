@@ -1,0 +1,26 @@
+<section id="citroenGtFavorite" ng-style="{'background-image':'url({{carData.Favorites.ImageURL}})'}">
+	<h2>{{carData.Favorites.Title}}</h2>
+</section>
+
+<section id="models">
+	<div ng-repeat="car in carData.Cars track by $index" class="clear">	
+		<div class="model-img">
+			<img alt="concept cars" src="{{car.ImageURL}}"/>
+		</div>
+		<div class="model-info">
+			<h4>{{car.Title}}</h4>
+    		<p>{{car.Text | limitTo: 400}}{{car.Text.length < 400 ? '' : '...'}}</p>
+			<br>
+			<button class="btn btn-small">{{car.ButtonText}}</button>
+		</div>
+	</div>
+</section>
+
+<footer>
+	<ul>
+		<li ng-repeat="value in carData.Footer.Navigation  track by $index" class="last">
+			<a href="#">{{value}}</a>
+		</li>
+	</ul>
+	<div>{{carData.Footer.Text}}</div>
+</footer>

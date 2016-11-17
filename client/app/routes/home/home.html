@@ -1,0 +1,57 @@
+<section id="citroenGt" ng-style="{'background-image':'url({{carData.Header.ImageURL}})'}">
+	<div>
+		<h1>{{carData.Header.Title}}</h1>
+		<button class="btn btn-large">{{carData.Header.ButtonText}}</button>
+	</div>
+</section>
+
+<section id="conceptCars">
+	<h3>{{carData.Subheader.Title}}</h3>
+	<p>{{carData.Subheader.Text}}</p>
+</section>
+
+<section id="models">
+	<div ng-repeat="car in carData.Cars track by $index" class="clear">	
+		<div class="model-img">
+			<img alt="concept cars" src="{{car.ImageURL}}"/>
+		</div>
+		<div class="star"><i class="fa fa-star" aria-hidden="true"></i></div>
+		<div class="model-info">
+			<h4>{{car.Title}}</h4>
+    		<p>{{car.Text | limitTo: 400}}{{car.Text.length < 400 ? '' : '...'}}</p>
+			<br>
+			<button class="btn btn-small">{{car.ButtonText}}</button>
+		</div>
+	</div>
+</section>
+
+<div class="clear"></div>
+
+<section id="favorite" class="" ng-class="{changeBackground: hover}" 
+    ng-mouseenter="hover = true"   ng-mouseleave="hover = false">
+	<div class="favoriteInfo" ng-class="{favoriteInfoTop: hover}" 
+    ng-mouseenter="hover = true"   ng-mouseleave="hover = false">
+		<h3>Favorite {{carData.Subheader.Title}}</h3>
+		<p>{{carData.Subheader.Text}}</p>
+	</div>
+</section>
+
+<section id="find-more">
+	<div class="car-name">
+		<ul>
+			<li><a href="#">{{carData.Tabs[0].Title}}</a></li>
+			<li><a href="#">{{carData.Tabs[1].Title}}</a></li>
+			<li><a href="#">{{carData.Tabs[2].Title}}</a></li>
+			<li><a href="#">{{carData.Tabs[3].Title}}</a></li>
+		</ul>
+	</div>
+	<div class="my-car">
+		<img src="assets/img/Citroen5.png" width="100%" height="100%" />
+		<button class="btn btn-small">{{carData.Tabs[0].ButtonText}}</button>
+	</div>
+</section>
+
+<div class="clear"></div>
+
+<footer></footer>
+.

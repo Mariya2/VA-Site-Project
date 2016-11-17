@@ -1,0 +1,82 @@
+{
+    "Navigation": [
+        "Home",
+        "Models",
+        "Favorite",
+        "Populars",
+        "About",
+        "Contact"
+    ],
+    "Header": {
+        "Title": "Citroen GT Supercar",
+        "ButtonText": "View more",
+        "ImageURL": "https://s32.postimg.org/bmwu5yxs5/citroen_GT.jpg"
+    },
+    "Social": [
+        "facebook",
+        "google",
+        "rss",
+        "linkedin"
+    ],
+    "Subheader": {
+        "Title": "Concept Cars",
+        "Text": "Far more than just exercises in style, our concept cars reflect our ambitions, values and imagination. Through our concept cars, weare exploring the future of driving.They are laboratoriesfor new ideas,which we share with the public at major international motor shows."
+    },
+    "Cars": [{
+        "Title": "Citroën Survolt",
+        "ImageURL": "https://s31.postimg.org/47xcvwf2j/citroen_survolt.jpg",
+        "Text": "Glamorous, free-spirited and dynamicSurvolt has its own unique style,mixing high - fashion glamour and extravagance with the dynamic thrills of motorsports.The full - electric drivetrain adds an extra bold touch.The Survolt features two - tone paintwork in shades of fuchsia and charcoal grey.Its curves shift from satin - smooth to shiny,flouting the classic masculine codes of the sports world.",
+        "ButtonText": "Find out more"
+    }, {
+        "Title": "Citroën Hypnos",
+        "ImageURL": "https://s31.postimg.org/4jet8nvij/citroen_hypnos.jpg",
+        "Text": "Creativity and technologyAn elegant and distinctive cross - over vehicle,the Hypnos features a range of creative technologies to combine strong performance and a dynamic design with respectfor the environment.The Hypnos has exceptional elegance and strength,with dynamic,sculpted body lines that include: The Hypnos’ sleek looks are showcased by the deep,radiant grey of its bodywork,which...shifts in intensity depending on the light.",
+        "ButtonText": "Find out more"
+    }, {
+        "Title": "GTbyCitroën",
+        "ImageURL": "https://s31.postimg.org/ql9owg5e3/divineds.jpg",
+        "Text": "From the virtual worldStyled to replicate a vehicle from the digital world,the GTbyCitroën is an original take on a road car.Its the result of a partnership between Citroën and Polyphony,designer of the driving simulation game Gran Turismo 5.The GTbyCitroën has flowing,taut lines,stretched to the extreme.The cleanly drawn sides,...ribbed at the top,and the pearlescent shade of the bodywork enhance the cars powerful look.",
+        "ButtonText": "Find out more"
+    }, {
+        "Title": "Citroen Devine DS",
+        "ImageURL": "https://s31.postimg.org/u65kfo9xn/gtbycitroen.jpg",
+        "Text": "Judging by the design elements of the car, the D in DS must stand for Diamond. The car sits very low to the ground with a height of 1.35m tall.The show car is painted metallic grey and the grille has diamond - shaped chrome elements.One of the more interesting features of the concept car are laser headlamps that operate at speeds over 37 mph.",
+        "ButtonText": "Find out more"
+    }],
+    "Tabs": [{
+        "Title": "Citroën Wild Rubis",
+        "ImageURL": "https://s31.postimg.org/47xcvwf2j/citroen_survolt.jpg",
+        "ButtonText": "Find out more"
+    }, {
+        "Title": "Citroën Numéro 9",
+        "ImageURL": "https://s31.postimg.org/4jet8nvij/citroen_hypnos.jpg",
+        "ButtonText": "Find out more"
+    }, {
+        "Title": "Citroën Metropolis",
+        "ImageURL": "https://s31.postimg.org/ql9owg5e3/divineds.jpg",
+        "ButtonText": "Find out more"
+    }, {
+        "Title": "Citroën Revolte",
+        "ImageURL": "https://s31.postimg.org/u65kfo9xn/gtbycitroen.jpg",
+        "ButtonText": "Find out more"
+    }],
+    "Favorites": {
+        "ImageURL": "https://s32.postimg.org/ypbvoucyt/header_fav.jpg",
+        "Title": "Favorite cars"
+    },
+    "Footer": {
+        "Navigation": [
+            "About",
+            "Advertise",
+            "Tip Us",
+            "Contact",
+            "Ethics",
+            "Statement",
+            "Privacy",
+            "Policy",
+            "Terms of Use",
+            "Archives"
+        ],
+        "Text": "© Copyright of Virtual Affairs Limited 2016 | All Rights Reserved."
+    }
+}
