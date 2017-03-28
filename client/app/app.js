@@ -1,5 +1,6 @@
 var citroenApp = angular.module('citroenApp',['ngRoute'])
 
+//test 1-1
 .config(['$locationProvider', '$routeProvider',
           function($locationProvider, $routeProvider){
 	
