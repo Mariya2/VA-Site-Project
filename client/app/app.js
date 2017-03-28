@@ -1,7 +1,9 @@
 var citroenApp = angular.module('citroenApp',['ngRoute'])
 //my git
 
-//va-next1-1
+//va-next2-2
+
+
 .config(['$locationProvider', '$routeProvider',
           function($locationProvider, $routeProvider){
 	
