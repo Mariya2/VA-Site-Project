@@ -1,5 +1,5 @@
 var citroenApp = angular.module('citroenApp',['ngRoute'])
-
+//va-next-2-1
 .config(['$locationProvider', '$routeProvider',
           function($locationProvider, $routeProvider){
 	
