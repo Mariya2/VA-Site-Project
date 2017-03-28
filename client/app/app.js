@@ -1,5 +1,5 @@
 var citroenApp = angular.module('citroenApp',['ngRoute'])
-
+//stashed-1
 .config(['$locationProvider', '$routeProvider',
           function($locationProvider, $routeProvider){
 	
